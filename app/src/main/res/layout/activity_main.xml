@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zfj.android.touchpulldemo.MainActivity">
+    <com.zfj.android.touchpulldemo.TouchPullView
+        android:id="@+id/touch_pull_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:pContentDrawable="@drawable/ic_draw_circle"
+        app:pContentDrawableMargin="5dp"
+        app:pDragHeight="100dp"
+        app:pRadius="20dp"
+        app:pTangentAngle="110"
+        app:pTargetGravityHeight="10dp"
+        app:pTargetWidth="200dp"
+        />
+
+</RelativeLayout>
